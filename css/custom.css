@@ -65,7 +65,7 @@ body {
 }
 #social-networks {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style: none;
 }
 #social-networks a{
@@ -73,7 +73,49 @@ body {
     text-decoration: none;
 }
 #skillsandartical {
-    display: flex;
+   display:flex;
 }
 
 #skills
+.articals {
+    display:flex;
+}
+
+
+
+.prevJobs article{
+    padding: 20px;
+    margin-left: 20px;
+}
+
+#prevJobs {
+    display:flex;
+    flex-direction: column;
+}
+
+.asides {
+    text-align: right;
+}
+
+.prevJobs {
+    display: flex;
+    padding-left: 20px;
+}
+
+#SkillsAndExperience {
+    display: flex;
+    justify-content: space-between;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+    
+}
+
+#unorderlist {
+    list-style: none;
+}
